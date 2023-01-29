@@ -96,7 +96,7 @@ def main():
                 break
 
     if not result:
-        print("There is no word that matches with Search Term")
+        print("There is no subword that matches with Search Term")
 
     else:
         for matched_word in result:
