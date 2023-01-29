@@ -1,6 +1,6 @@
 import pytest
 
-from wordsearch.handler import extract_word
+from catchword.handler import extract_word
 
 
 def test_extract_word():

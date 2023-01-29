@@ -4,8 +4,8 @@
 import argparse
 import os
 
-from wordsearch import trie
-from wordsearch import handler
+from catchword import trie
+from catchword import handler
 
 
 def read_file(filepath: str) -> list:

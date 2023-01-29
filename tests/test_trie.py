@@ -1,6 +1,6 @@
 import pytest
 
-from wordsearch.trie import Trie
+from catchword.trie import Trie
 
 
 @pytest.fixture
