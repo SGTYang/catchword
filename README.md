@@ -1,9 +1,9 @@
 # Textsearch
-Textsearch prints out the matched lowercase words from the file. Search term exists on the last line of the file at all times.
+Textsearch prints out the matched lowercase words from the file. Search term exists on the last line of the file at all times. If there is no match, "**There is no word that matches with Search Term!**" will be printed out on console.
 
-If there is no match, it will print out "**There is no word that matches with Search Term!**".
+The search function was implemented by using **"Prefix Tree"**.
 
-I try to follow [this][google/styleguide] style guide for this project. I wrote docstrings and inline comments for my approaches and detailed explanation. Please check my docstrings and comments for detailed explanations. 
+I try to follow [this][google/styleguide] style guide for this project. Check my docstrings and comments for detailed explanations. 
 
 [google/styleguide]: https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings
 
