@@ -1,5 +1,5 @@
-# Textsearch
-Textsearch prints out the matched lowercase words from the file. Search term exists on the last line of the file at all times. If there is no match, "**There is no word that matches with Search Term!**" will be printed out on console.
+# Wordsearch
+Wordsearch prints out the matched lowercase words from the file. Search term exists on the last line of the file at all times. If there is no match, "**There is no word that matches with Search Term!**" will be printed out on console.
 
 The search function was implemented by using **"Prefix Tree"**.
 
@@ -57,5 +57,5 @@ python -m pip install ["wheel_file".whl]
 ## 7. Usage
 "FILEPATH" should be absolute path of a file.
 ```
-textsearch ["FILEPATH"]
+wordsearch ["FILEPATH"]
 ```
