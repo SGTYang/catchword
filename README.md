@@ -12,49 +12,18 @@ This project uses "setup.py" for packaging project. But since it is not recommen
 
 [packaging]: https://packaging.python.org/en/latest/tutorials/packaging-projects/
 
-## 1. Check Python version
+## Check Python version
 This project needs **Python** version that is greater than or equal to **3.10**.
 ```
 python --version
 ```
 
-## 2. Create virtual environment and activate it
-See details at [here][venv].
-
-[venv]: https://docs.python.org/3/library/venv.html
-
+## Install
 ```
-python -m venv venv
-```
-Once you create it.
-```
-(POSIX) source venv/bin/activate
+pip install catchword
 ```
 
-## 3. Install requirements
-```
-python -m pip install -r requirements.txt
-```
-
-## 4. Run tests
-```
-python -m pytest
-```
-
-## 5. Build
-This will create "dist" folder.
-```
-python -m build
-```
-
-## 6. Install
-You can find the "wheel_file" at the "dist" folder.
-
-```
-python -m pip install ["wheel_file".whl]
-```
-
-## 7. Usage
+## Usage
 "FILEPATH" should be absolute path of a file.
 ```
 wordsearch ["FILEPATH"]
