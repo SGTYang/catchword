@@ -26,5 +26,5 @@ pip install catchword
 ## Usage
 "FILEPATH" should be absolute path of a file.
 ```
-wordsearch ["FILEPATH"]
+catchword ["FILEPATH"]
 ```
